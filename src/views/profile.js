@@ -33,6 +33,9 @@ export const Profile = () => {
       <Row>
         <Highlight>{JSON.stringify(user, null, 2)}</Highlight>
       </Row>
+      <Row>
+        <p>Your user.sub value is: {user.sub}</p>
+      </Row>
     </Container>
   );
 };
